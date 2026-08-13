@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Voice Agent</title>
+
+
+  <script type="importmap">
+  {
+    "imports": {
+      "livekit-client": "https://unpkg.com/livekit-client@2.15.6/dist/livekit-client.esm.mjs"
+    }
+  }
+  </script>
+
+</head>
+<body>
+
+  <script>
+    window.XpectrumVoiceConfig = {
+      apiKey: '__XPECTRUM_API_KEY__', // This placeholder will be replaced automatically
+      baseUrl: 'https://cloud.xpectrum.dev/v1',
+      buttonColor: '#7C3AED',
+    };
+  </script>
+  <script src="https://unpkg.com/xpectrum@1.0.0/dist/voice-embed.min.js" defer></script>
+</body>
+</html>
