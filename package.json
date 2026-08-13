@@ -1,0 +1,7 @@
+{
+  "name": "xpectrum-voice-agent",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sed -i \"s/__XPECTRUM_API_KEY__/$XPECTRUM_API_KEY/g\" index.html"
+  }
+}
